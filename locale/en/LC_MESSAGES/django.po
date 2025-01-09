@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-08 09:37+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\car\views.py:21
+msgid "Fetching all cars"
+msgstr ""
+
+#: .\car\views.py:29
+msgid "Created a new car successfully"
+msgstr ""
+
+#: .\car\views.py:31
+msgid "Create a new Car successful!"
+msgstr ""
+
+#: .\car\views.py:33
+#, python-format
+msgid "Failed to create a new car with data: %s"
+msgstr ""
+
+#: .\car\views.py:35
+msgid "Create a new Car unsuccessful!"
+msgstr ""
+
+#: .\car\views.py:43
+#, python-format
+msgid "Updating car with id: %s"
+msgstr ""
+
+#: .\car\views.py:49
+#, python-format
+msgid "Updated car with id: %s successfully"
+msgstr ""
+
+#: .\car\views.py:50 .\car\views.py:52 .\car\views.py:62 .\car\views.py:65
+msgid "message"
+msgstr ""
+
+#: .\car\views.py:51
+#, python-format
+msgid "Failed to update car with id: %s"
+msgstr ""
+
+#: .\car\views.py:55
+#, python-format
+msgid "Deleting car with id: %s"
+msgstr ""
+
+#: .\car\views.py:60
+#, python-format
+msgid "Deleted car with id: %s successfully"
+msgstr ""
+
+#: .\car\views.py:64
+#, python-format
+msgid "Failed to delete car with id: %s"
+msgstr ""
+
+#: .\myproject\settings.py:115
+msgid "English"
+msgstr ""
+
+#: .\myproject\settings.py:116
+msgid "Spanish"
+msgstr ""

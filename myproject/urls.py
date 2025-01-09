@@ -15,13 +15,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from car.views import ListCreateAPIView
 from car.views import UpdateDeleteCarView
+from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/cars/', ListCreateAPIView.as_view(), name='car-list-create'),
     
-    path('api/cars/<int:id>',UpdateDeleteCarView.as_view(), name = 'car-update-deletedelete'),
+    path('api/cars/<int:id>',UpdateDeleteCarView.as_view(), name = 'car-update-delete'),
 ]
+urlpatterns += i18n_patterns(
+    
+    path('admin/', admin.site.urls),
+    
+)
